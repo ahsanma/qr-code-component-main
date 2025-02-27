@@ -27,16 +27,6 @@
   --br-inner: 0.625rem; /* 10px */
 }
 
-a {
-  font-size: 1rem;
-  color: hsl(228, 45%, 44%);
-}
-
-a:hover,
-a:focus-visible {
-  color: hsl(218, 44%, 22%);
-}
-
 .centered {
   display: flex;
   align-items: center;
@@ -96,9 +86,4 @@ p {
   letter-spacing: 0.25px;
   font-weight: 400;
   margin-block-end: var(--margin-xl);
-}
-
-.attribution {
-  font-size: 1rem;
-  text-align: center;
 }
